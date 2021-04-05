@@ -1,0 +1,28 @@
+training:
+  bucket: ccd_trainfiles
+  good_raw: ccd_good_raw
+  bad_raw: ccd_bad_raw
+  good_raw_file_path: gs://{}/{}
+  archive_good_raw: ccd_archive_good_raw
+  archive_bad_raw: ccd_archive_bad_raw
+  trainingfilefromdb: ccd_trainingfilefromdb
+  bin: ccd_myrecycle_bin
+
+modeltraining:
+  bucket: ccd_modelsforprediction
+  metadata: ccd_metadata
+  training_file: gs://ccd_trainingfilefromdb/InputFile.csv
+
+prediction:
+  bucket: ccd_predictionfiles
+  good_raw: ccd_prediction_good_raw
+  bad_raw: ccd_prediction_bad_raw
+  good_raw_file_path: gs://{}/{}
+  archive_good_raw: ccd_prediction_archive_good_raw
+  archive_bad_raw: ccd_prediction_archive_bad_raw
+  trainingfilefromdb: ccd_predictionfilefromdb
+  predictedfile: ccd_predictedcsvfiles
+  prediction_file: gs://ccd_predictionfilefromdb/InputFile.csv
+
+
+

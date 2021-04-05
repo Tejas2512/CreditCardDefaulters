@@ -1,0 +1,2 @@
+db:
+  connection_string : "mongodb+srv://dbUser:CreditCardDefaulters@creditcarddefaulters.3nig3.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"

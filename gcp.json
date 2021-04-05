@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "creditcarddefaulters",
+  "private_key_id": "cf6f55e21e52c09a40e892d8226d302b0005525d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDHEeQyv5DMzhOB\n5BT4Ly0PTu78yG/jImuO/bAvPzK2e9NPIMGIR7dWa0bgH5N2RQL23eH47L4gdGL7\nfe3ycABYKP09eThV/gPJ19BLwZ6bZRGIZy9KWgzQnO/X+gG1c037QPCvO0umbN1p\neb/Bq94MidcUVJlXQlHlPY1H3YtQqm3rzvF4CfoddpW+PFhW+NAosCur/Sty63/6\n7tBy1+9tBEMn8S5hvs91A909b87ZSDMKfPHTvNYKz9SSogXTtWInMD56y1y9wvpp\nL4MZzyiSilBueRE1IXJFYJXXQDRPcPRizfrwxJd9vn3OY9Zs293Xi4v0khLStykP\npOARZsDNAgMBAAECggEAKuoAd7A0VvJV4jp5CsegvxwVCQlslVpmNX0a7hSBqjUn\naHd3QRm0vDyEGuyzrVtTOES84hynH/f3HqAXG5xpdpfff9ESA/eueWS80pf6ySUQ\nkocr+qtO9+ndCoIqvCMPPIrTV/NAa7AsSwCkBew3Ahz08L0MEXOKlBCg1E0+KzUx\nBnPcc5HLthPEl6k7IjW8L1FlY8Ymy0Is6+NZpDncVp1YCk96D+uasrQ8IP08q0T/\nPAYLsE0C7WbjqRlvvb5cSfAZKumO4kWfApSkxub0FMglZPg8I6Z4r+lIQZ15WUdc\nbLTCCaGaRtR4SDAIWj0sKdy5VxJwWQTmAZf8rzU9QQKBgQDkcfMEwdf1hQhn/aDG\nH78oYsfFwaaMEXlGoluAKAfBWxBksLQrLAZQolhwWeNYjuCoit2mM8nlivbtL+41\nEAzF1/1G7h5ZuF25Yitd6Cetj0Aw/3CMMrZm1zwy4jj4nlPcipVGE5yLUHFNp+1+\nWyQO4v2tfO+moyPNCA4qh2AibwKBgQDfFODM+cdXFIag7wjSFLV7CKIm6K38taaN\nKw2PW5CtVjLOYaXidbDD2s6G4xbL8/pXKf/9OzBYGjJ4WJuXhRH1vpgX0jUY1zds\nXe0btRDQCXI8xJpUYJhWsahxQXana4USQy5KyDdXsYcwNfejjWn+X/QnKywAILHR\nnqx8ASX+gwKBgFGFZF6vOfzQk3ZgqO3qyFGGJpooh+F2HtwY9iQepN3YPFpiQHkj\nhcFincLCIQIqQnuCyqQT2RmD5KgxsYTYDGbRs/2K3ePQigmswaMKRJaIBzU1ApnV\nQwgiCMZzujbmcTDDd4+BUhzZAQXgRj0QEycI09QEQJUrpIv3Mu70TlcbAoGBAMo1\ndZO3MZ7YZzRHl9o9lUchy0GzlcpEqeS6Sr9Qg3LreIAkeSYuAf12P9B61bYnwBr0\nYisbVLX3gRofT2Hn6CC2E8076I9MvdtHxF5iIQxCE7/LggzLxiqHPSTz7ubRCj1E\nkhiNJcUikWT89izVSWefeINsmaS//g8BYl3A+LybAoGBANqIXerQSujWQLns26rc\nh0VMiqlUHN20UvtKffH93+Eqx0596ef9iBWFBIEVfGdaOlWm8Fhvc/cqhT1jWQnL\nPpFMk87dJJnUu2N4XQvgaYA39vTPTNkCbFTDLKjfHpG4RGYRqEQDys1/erXfcsGz\nD/VChzOsO7q+e5WOH/OEcnHD\n-----END PRIVATE KEY-----\n",
+  "client_email": "creditcarddefaulters@creditcarddefaulters.iam.gserviceaccount.com",
+  "client_id": "104620675192390153370",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/creditcarddefaulters%40creditcarddefaulters.iam.gserviceaccount.com"
+}
