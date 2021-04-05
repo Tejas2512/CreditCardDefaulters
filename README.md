@@ -16,6 +16,8 @@ Libraries : `sklearn`, `pandas`, `numpy`, `flask`, `GCP-storage`, etc..
 
 ### Command we use to build docker image:
 
+---------------LOCALLY------------------------------
+
 `docker image build -t <REPOSITORY>` 
 
 `docker images`
@@ -24,17 +26,41 @@ Libraries : `sklearn`, `pandas`, `numpy`, `flask`, `GCP-storage`, etc..
 
 `docker run -p 5000:5000 -d <REPOSITORY>`
 
-`docker login dockerfitbit.azurecr.io`
-
-`docker push dockerfitbit.azurecr.io/mlfitbit:latest`
-
 `docker stop <containerID>`
 
 `docker system prune`
 
------------------------------------
+----------------In GOOGLE CLOUD PLATFORM-------------------
 
 `git clone https://github.com/Tejas2512/CreditCardDefaulters.git`
+
+`cd CreditCardDefaulters`
+
+`export PROJECT_ID=creditcarddefaulters`
+
+`docker build -t gcr.io/${PROJECT_ID}/creditcard:v1 .`
+
+`docker images`
+
+`gcloud auth configure-docker gcr.io`
+
+`docker push gcr.io/${PROJECT_ID}/creditcard:v1`
+
+`gcloud compute zones list`
+
+`gcloud config set compute/zone asia-southeast2-a`
+
+`gcloud container clusters create creditcard  --num-nodes=2`
+
+`kubectl create deployment creditcard  --image=gcr.io/${PROJECT_ID}/creditcard:v1`
+
+`kubectl expose deployment creditcard --type=LoadBalancer --port 80 --target-port 8080`
+
+`kubectl get service`
+
+
+
+
 
 
 
