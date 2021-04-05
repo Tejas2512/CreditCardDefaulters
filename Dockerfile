@@ -1,21 +1,15 @@
+# init a base image
 FROM python:3.6
-
-RUN pip install virtualenv
-ENV VIRTUAL_ENV=/venv
-RUN virtualenv venv -p python3
-ENV PATH="VIRTUAL_ENV/bin:$PATH"
-
-WORKDIR /app
-ADD . /app
-
-# Install dependencies
+# COPY . /usr/app
+# EXPOSE 5000
+# define the present working directory
+WORKDIR /usr/app/
+# copy all the content into working directory
+ADD . /usr/app/
+# install all dependency for this project
 RUN pip install -r requirements.txt
-
-# Expose port
-ENV PORT 8080
-
-# Run the application:
-CMD ["gunicorn", "app:app", "--config=config.py"]
+# define the command to start the container
+CMD python main.py
 
 # command we use to build docker image:
 
