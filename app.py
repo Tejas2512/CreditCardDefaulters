@@ -8,7 +8,6 @@ from training_Validation_Insertion import train_validation
 #import flask_monitoringdashboard as dashboard
 from DataTypeValidation_Insertion_Training.DataTypeValidation import dBOperation
 from predictFromModel import prediction
-import config
 
 os.putenv('LANG', 'en_US.UTF-8')
 os.putenv('LC_ALL', 'en_US.UTF-8')
@@ -91,6 +90,5 @@ def trainRouteClient():
     return Response("Training successfull!!")
 
 
-# port = int(os.getenv("PORT",5001))
 if __name__ == "__main__":
-    app.run(host="0.0.0.0",port=config.PORT,debug=config.DEBUG_MODE)
+    app.run(host="0.0.0.0",debug=True)

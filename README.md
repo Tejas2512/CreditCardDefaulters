@@ -58,6 +58,8 @@ Libraries : `sklearn`, `pandas`, `numpy`, `flask`, `GCP-storage`, etc..
 
 `kubectl get service`
 
+`docker image rm -f <image_id>`
+
 
 
 
