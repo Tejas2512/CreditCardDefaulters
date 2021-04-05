@@ -18,7 +18,7 @@ class File_Operation:
     def __init__(self,file_object,logger_object):
         self.file_object = file_object
         self.logger_object = logger_object
-        with open(os.path.join("configfile","params.yaml"),"r") as f:
+        with open(os.path.join("configfiles","params.yaml"),"r") as f:
             self.config = yaml.safe_load(f)
         self.model_directory = self.config["modeltraining"]["bucket"]
         self.log = "GCPlog"

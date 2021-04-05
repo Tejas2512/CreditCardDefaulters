@@ -30,7 +30,7 @@ class Prediction_Data_validation:
         self.gcp = Gcp(file_object=self.gcp_log, logger_object=self.logger)
 
 
-        with open(os.path.join("configfile", "params.yaml"), "r") as f:
+        with open(os.path.join("configfiles", "params.yaml"), "r") as f:
             self.config = yaml.safe_load(f)
         self.predictionfile = self.config["prediction"]["bucket"]
         self.good_raw = self.config["prediction"]["good_raw"]

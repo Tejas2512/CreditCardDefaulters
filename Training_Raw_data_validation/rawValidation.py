@@ -25,7 +25,7 @@ class Raw_Data_validation:
         self.logger = App_Logger()
         self.gcp_log = "GCPlog"
         self.gcp = Gcp(file_object=self.gcp_log, logger_object=self.logger)
-        with open(os.path.join("configfile", "params.yaml"), "r") as f:
+        with open(os.path.join("configfiles", "params.yaml"), "r") as f:
             self.config = yaml.safe_load(f)
         self.tariningfiles = self.config["training"]["bucket"]
         self.good_raw = self.config["training"]["good_raw"]

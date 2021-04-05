@@ -17,7 +17,7 @@ class dataTransform:
                """
 
      def __init__(self):
-          with open(os.path.join("configfile","params.yaml"),"r") as f:
+          with open(os.path.join("configfiles","params.yaml"),"r") as f:
                self.config = yaml.safe_load(f)
           self.goodDataPath = self.config["training"]["good_raw"]
           self.logger = App_Logger()

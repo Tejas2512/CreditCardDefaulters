@@ -15,7 +15,7 @@ class prediction:
         self.log_writer = logger.App_Logger(database="Prediction_Logs")
         self.pred_data_val = Prediction_Data_validation(path)
 
-        with open(os.path.join("configfile","params.yaml"),"r") as f:
+        with open(os.path.join("configfiles", "params.yaml"), "r") as f:
             self.config = yaml.safe_load(f)
         self.predictedfile = self.config["prediction"]["predictedfile"]
 

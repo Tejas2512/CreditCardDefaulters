@@ -17,7 +17,7 @@ class Data_Getter_Pred:
         self.logger_object=logger_object
         self.file = "GCPlog"
         self.gcp = Gcp(self.file,self.logger_object)
-        with open(os.path.join("configfile", "params.yaml"), "r") as f:
+        with open(os.path.join("configfiles", "params.yaml"), "r") as f:
             self.config = yaml.safe_load(f)
         self.prediction_file = self.config['prediction']['prediction_file']
 

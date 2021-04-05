@@ -37,7 +37,7 @@ class Model_Finder:
         self.dBOperation = dBOperation()
         self.xgb = XGBClassifier(objective='binary:logistic',n_jobs=-1)
 
-        with open(os.path.join("configfile","hyperparameter.yaml"),"r") as f:
+        with open(os.path.join("configfiles","hyperparameter.yaml"),"r") as f:
             self.para = yaml.safe_load(f)
 
         self.verbose = self.para['base']['verbose']

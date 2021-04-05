@@ -9,7 +9,9 @@ ADD . /usr/app/
 # install all dependency for this project
 RUN pip install -r requirements.txt
 # define the command to start the container
-CMD python main.py
+ENV PORT 8080
+
+CMD python app.py
 
 # command we use to build docker image:
 

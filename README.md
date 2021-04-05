@@ -32,3 +32,9 @@ Libraries : `sklearn`, `pandas`, `numpy`, `flask`, `GCP-storage`, etc..
 
 `docker system prune`
 
+-----------------------------------
+
+`git clone https://github.com/Tejas2512/CreditCardDefaulters.git`
+
+
+

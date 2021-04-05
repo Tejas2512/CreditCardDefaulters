@@ -13,7 +13,7 @@ class Data_Getter:
 
     """
     def __init__(self, file_object, logger_object):
-        with open(os.path.join("configfile","params.yaml"),'r') as f:
+        with open(os.path.join("configfiles","params.yaml"),'r') as f:
             self.config = yaml.safe_load(f)
 
         self.training_file = self.config["modeltraining"]["training_file"]#'Training_FileFromDB/InputFile.csv'
